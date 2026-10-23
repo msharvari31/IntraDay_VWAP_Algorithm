@@ -18,7 +18,8 @@ A simulation tool to execute optimal liquidation schedules for large equity bloc
 ### 1. VWAP Benchmark
 For typical price $P_t = \frac{\text{High}_t + \text{Low}_t + \text{Close}_t}{3}$ and bar volume $V_t$[cite: 1]:
 
-$$\text{VWAP}_{\text{market}} = \frac{\sum P_t V_t}{\sum V_t} = \frac{\sum P_t V_t}{V_{\text{daily}}}$$
+$$\mathrm{VWAP}_{\mathrm{market}} = \frac{\sum_t P_t V_t}{\sum_t V_t} = \frac{\sum_t P_t V_t}{V_{\mathrm{daily}}}$$
+
 [cite: 1]
 
 ### 2. Child Order Sizing
